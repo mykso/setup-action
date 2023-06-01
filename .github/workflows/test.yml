@@ -13,6 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Check versions
         run: |
           myks --help

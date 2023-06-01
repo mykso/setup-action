@@ -1,0 +1,44 @@
+name: myks-setup-action
+description: Setup myks with dependencies
+author: The Myks Authors
+branding:
+  color: green
+  icon: download
+inputs:
+  token:
+    description: Github token to use to avoid rate limits
+    required: false
+    default: ''
+  myks:
+    description: myks version
+    required: false
+    default: latest
+  kbld:
+    description: kbld version
+    required: false
+    default: latest
+  vendir:
+    description: vendir version
+    required: false
+    default: latest
+  ytt:
+    description: ytt version
+    required: false
+    default: latest
+runs:
+  using: composite
+  steps:
+    - name: Install dependencies
+      uses: carvel-dev/setup-action@v1
+      with:
+        token: ${{ inputs.token }}
+        only: ytt, kbld, vendir
+        kbld: ${{ inputs.kbld }}
+        vendir: ${{ inputs.vendir }}
+        ytt: ${{ inputs.ytt }}
+    - name: Install myks
+      uses: jaxxstorm/action-install-gh-release@v1.10.0
+      with:
+        repo: mykso/myks
+        tag: ${{ inputs.myks }}
+        token: ${{ inputs.token }}

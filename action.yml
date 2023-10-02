@@ -29,7 +29,7 @@ runs:
   using: composite
   steps:
     - name: Install dependencies
-      uses: carvel-dev/setup-action@v1
+      uses: carvel-dev/setup-action@v2
       with:
         token: ${{ inputs.token }}
         only: ytt, kbld, vendir

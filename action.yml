@@ -17,10 +17,6 @@ inputs:
     description: kbld version
     required: false
     default: latest
-  vendir:
-    description: vendir version
-    required: false
-    default: latest
   ytt:
     description: ytt version
     required: false
@@ -32,9 +28,8 @@ runs:
       uses: carvel-dev/setup-action@v2
       with:
         token: ${{ inputs.token }}
-        only: ytt, kbld, vendir
+        only: ytt, kbld
         kbld: ${{ inputs.kbld }}
-        vendir: ${{ inputs.vendir }}
         ytt: ${{ inputs.ytt }}
     - name: Install myks
       uses: jaxxstorm/action-install-gh-release@v1.11.0

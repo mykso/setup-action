@@ -1,0 +1,19 @@
+---
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Release Please
+        uses: google-github-actions/release-please-action@v4
+        with:
+          release-type: simple
+          # The PAT is needed to run required checks on the release PR.
+          # If a PR is created with the GITHUB_TOKEN, it will not trigger workflows.
+          token: ${{ secrets.MYKSO_BOT_GITHUB_TOKEN }}

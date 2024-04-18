@@ -37,7 +37,7 @@ runs:
         vendir: ${{ inputs.vendir }}
         ytt: ${{ inputs.ytt }}
     - name: Install myks
-      uses: jaxxstorm/action-install-gh-release@v1.10.0
+      uses: jaxxstorm/action-install-gh-release@v1.11.0
       with:
         repo: mykso/myks
         tag: ${{ inputs.myks }}

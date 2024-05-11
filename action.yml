@@ -1,5 +1,5 @@
 name: myks-setup-action
-description: Setup myks with dependencies
+description: Setup myks
 author: The Myks Authors
 branding:
   color: green
@@ -13,24 +13,9 @@ inputs:
     description: myks version
     required: false
     default: latest
-  kbld:
-    description: kbld version
-    required: false
-    default: latest
-  ytt:
-    description: ytt version
-    required: false
-    default: latest
 runs:
   using: composite
   steps:
-    - name: Install dependencies
-      uses: carvel-dev/setup-action@v2
-      with:
-        token: ${{ inputs.token }}
-        only: ytt, kbld
-        kbld: ${{ inputs.kbld }}
-        ytt: ${{ inputs.ytt }}
     - name: Install myks
       uses: jaxxstorm/action-install-gh-release@v1.11.0
       with:

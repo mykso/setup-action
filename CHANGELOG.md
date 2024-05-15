@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/mykso/setup-action/compare/v2.0.0...v3.0.0) (2024-05-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove standalone ytt binary and kbld
+
+### Features
+
+* remove standalone ytt binary and kbld ([1dd6adb](https://github.com/mykso/setup-action/commit/1dd6adba710706af94a398793fc7884fa0253f4f))
+
 ## [2.0.0](https://github.com/mykso/setup-action/compare/v1.0.0...v2.0.0) (2024-04-18)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.3](https://github.com/mykso/setup-action/compare/v3.0.2...v3.0.3) (2024-11-26)
+
+
+### Bug Fixes
+
+* **deps:** update jaxxstorm/action-install-gh-release action to v1.14.0 ([#18](https://github.com/mykso/setup-action/issues/18)) ([f311ba5](https://github.com/mykso/setup-action/commit/f311ba51b25ef06731d26466354586785c68ee76))
+
 ## [3.0.2](https://github.com/mykso/setup-action/compare/v3.0.1...v3.0.2) (2024-11-11)
 
 

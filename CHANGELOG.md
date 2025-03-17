@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.4](https://github.com/mykso/setup-action/compare/v3.0.3...v3.0.4) (2025-03-17)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([#21](https://github.com/mykso/setup-action/issues/21)) ([8a96206](https://github.com/mykso/setup-action/commit/8a962066ff183a24b86bf9b7ff94ead0b7bd3c59))
+* **deps:** update jaxxstorm/action-install-gh-release action to v2 ([#20](https://github.com/mykso/setup-action/issues/20)) ([100a1ef](https://github.com/mykso/setup-action/commit/100a1ef8e978ab63d4a3221eeeab4328f2dce706))
+
 ## [3.0.3](https://github.com/mykso/setup-action/compare/v3.0.2...v3.0.3) (2024-11-26)
 
 

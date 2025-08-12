@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.6](https://github.com/mykso/setup-action/compare/v3.0.5...v3.0.6) (2025-08-12)
+
+
+### Bug Fixes
+
+* **deps:** update actions/checkout action to v5 ([#26](https://github.com/mykso/setup-action/issues/26)) ([0fd71a4](https://github.com/mykso/setup-action/commit/0fd71a48fe6582a3de50bc82f3c93d73044ba623))
+
 ## [3.0.5](https://github.com/mykso/setup-action/compare/v3.0.4...v3.0.5) (2025-04-28)
 
 

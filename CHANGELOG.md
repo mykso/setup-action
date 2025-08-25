@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.7](https://github.com/mykso/setup-action/compare/v3.0.6...v3.0.7) (2025-08-25)
+
+
+### Bug Fixes
+
+* **deps:** update googleapis/release-please-action action to v4.3.0 ([#28](https://github.com/mykso/setup-action/issues/28)) ([a52cee5](https://github.com/mykso/setup-action/commit/a52cee52f7ca48a06155421316db643b7882c099))
+
 ## [3.0.6](https://github.com/mykso/setup-action/compare/v3.0.5...v3.0.6) (2025-08-12)
 
 

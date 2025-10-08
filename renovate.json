@@ -1,4 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices", ":semanticCommitTypeAll(fix)"]
+  "extends": [
+    "config:best-practices",
+    ":semanticCommitTypeAll(fix)",
+    "customManagers:githubActionsVersions"
+  ]
 }

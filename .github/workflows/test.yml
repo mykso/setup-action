@@ -7,10 +7,6 @@ on: # rebuild any PRs and main branch changes
       - main
       - 'releases/*'
 
-env:
-  # renovate: datasource=github-releases depName=mykso/myks
-  MYKS_VERSION: 4.11.0
-
 jobs:
   test-tokenless:
     runs-on: ubuntu-latest
@@ -38,6 +34,9 @@ jobs:
           myks vendir --version
   test-versioned:
     runs-on: ubuntu-latest
+    env:
+      # renovate: datasource=github-releases depName=mykso/myks
+      MYKS_VERSION: v4.11.0
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - uses: ./

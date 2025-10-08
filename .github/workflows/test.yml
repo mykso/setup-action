@@ -7,8 +7,23 @@ on: # rebuild any PRs and main branch changes
       - main
       - 'releases/*'
 
+env:
+  # renovate: datasource=github-releases depName=mykso/myks
+  MYKS_VERSION: 4.11.0
+
 jobs:
-  test:
+  test-tokenless:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - uses: ./
+      - name: Check versions
+        run: |
+          myks --help
+          myks --version
+          myks ytt --version
+          myks vendir --version
+  test-latest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
@@ -18,5 +33,20 @@ jobs:
       - name: Check versions
         run: |
           myks --help
+          myks --version
+          myks ytt --version
+          myks vendir --version
+  test-versioned:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - uses: ./
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          myks: ${{ env.MYKS_VERSION }}
+      - name: Check versions
+        run: |
+          myks --help
+          myks --version
           myks ytt --version
           myks vendir --version

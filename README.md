@@ -15,7 +15,7 @@ A GitHub Action to setup [myks](https://github.com/mykso/myks) in your workflow.
     token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-> [!TIP]
+> [!IMPORTANT]
 > Always pin tools to a specific version to avoid unexpected issues.
 > Use Renovate or Dependabot to keep your versions up to date automatically.
 > See the example below for a Renovate configuration.

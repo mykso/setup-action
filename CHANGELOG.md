@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.0.8](https://github.com/mykso/setup-action/compare/v3.0.7...v3.0.8) (2025-10-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mykso/myks to v5 ([#32](https://github.com/mykso/setup-action/issues/32)) ([fd36d10](https://github.com/mykso/setup-action/commit/fd36d10e06354c9bf207a1859904a97410ac2622))
+* **deps:** update dependency mykso/myks to v5.1.0 ([#35](https://github.com/mykso/setup-action/issues/35)) ([b24f780](https://github.com/mykso/setup-action/commit/b24f780cc50708a829317f48f12312addd7109e5))
+* **deps:** update googleapis/release-please-action action to v4.4.0 ([#34](https://github.com/mykso/setup-action/issues/34)) ([8c6013c](https://github.com/mykso/setup-action/commit/8c6013c7a589e4d4eea3b7a7c3b0106db2d97f2d))
+
 ## [3.0.7](https://github.com/mykso/setup-action/compare/v3.0.6...v3.0.7) (2025-10-08)
 
 

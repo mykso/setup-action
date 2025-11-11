@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # renovate: datasource=github-releases depName=mykso/myks
-      MYKS_VERSION: v5.1.0
+      MYKS_VERSION: v5.2.0
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - uses: ./

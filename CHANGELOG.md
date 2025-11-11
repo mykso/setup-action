@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.9](https://github.com/mykso/setup-action/compare/v3.0.8...v3.0.9) (2025-11-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mykso/myks to v5.2.0 ([#36](https://github.com/mykso/setup-action/issues/36)) ([9629fd4](https://github.com/mykso/setup-action/commit/9629fd45e23a472b929faf03b882bf50aa614e7f))
+
 ## [3.0.8](https://github.com/mykso/setup-action/compare/v3.0.7...v3.0.8) (2025-10-31)
 
 

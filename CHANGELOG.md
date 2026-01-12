@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.11](https://github.com/mykso/setup-action/compare/v3.0.10...v3.0.11) (2026-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update actions/checkout action to v6.0.1 ([#42](https://github.com/mykso/setup-action/issues/42)) ([04d1dfa](https://github.com/mykso/setup-action/commit/04d1dfad33c08f76af2627e493a29988ccec215e))
+* **deps:** update dependency mykso/myks to v5.5.1 ([#43](https://github.com/mykso/setup-action/issues/43)) ([b843bbd](https://github.com/mykso/setup-action/commit/b843bbd570b83f6de59e57db1db095207dc9d35f))
+
 ## [3.0.10](https://github.com/mykso/setup-action/compare/v3.0.9...v3.0.10) (2025-11-21)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.12](https://github.com/mykso/setup-action/compare/v3.0.11...v3.0.12) (2026-01-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mykso/myks to v5.6.0 ([#45](https://github.com/mykso/setup-action/issues/45)) ([0b33906](https://github.com/mykso/setup-action/commit/0b33906ed13a6739ee7022c83cbac7ff41582cd4))
+
 ## [3.0.11](https://github.com/mykso/setup-action/compare/v3.0.10...v3.0.11) (2026-01-10)
 
 

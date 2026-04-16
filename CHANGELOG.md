@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.0.13](https://github.com/mykso/setup-action/compare/v3.0.12...v3.0.13) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update actions/checkout action to v6.0.2 ([#47](https://github.com/mykso/setup-action/issues/47)) ([c967e6e](https://github.com/mykso/setup-action/commit/c967e6e9e58ceab030e609e29762f0e9453f0566))
+* **deps:** update dependency mykso/myks to v5.11.0 ([#50](https://github.com/mykso/setup-action/issues/50)) ([bd93a0f](https://github.com/mykso/setup-action/commit/bd93a0fe6270cc42a18e4ca32695d5b526306972))
+* **deps:** update dependency mykso/myks to v5.12.1 ([#51](https://github.com/mykso/setup-action/issues/51)) ([7582e2a](https://github.com/mykso/setup-action/commit/7582e2a690143694a4632a3b13f016cd00309730))
+* **deps:** update dependency mykso/myks to v5.12.2 ([#53](https://github.com/mykso/setup-action/issues/53)) ([5650463](https://github.com/mykso/setup-action/commit/565046379764e9ce9136e1d331092fc88e74db61))
+* **deps:** update dependency mykso/myks to v5.8.1 ([#48](https://github.com/mykso/setup-action/issues/48)) ([80ace6a](https://github.com/mykso/setup-action/commit/80ace6a7d0eb7e62282a5f6ea7fd2f1b8b7069e1))
+* **deps:** update googleapis/release-please-action action to v4.4.1 ([#54](https://github.com/mykso/setup-action/issues/54)) ([e31ad4f](https://github.com/mykso/setup-action/commit/e31ad4fd811858f686539ab74521d9bfe2d0f515))
+* **deps:** update jaxxstorm/action-install-gh-release action to v3 ([#52](https://github.com/mykso/setup-action/issues/52)) ([94d9690](https://github.com/mykso/setup-action/commit/94d9690b993626b7b62c758cd5f6e7d2a532dcad))
+
 ## [3.0.12](https://github.com/mykso/setup-action/compare/v3.0.11...v3.0.12) (2026-01-16)
 
 

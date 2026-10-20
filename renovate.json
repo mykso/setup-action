@@ -4,5 +4,12 @@
     "config:best-practices",
     ":semanticCommitTypeAll(fix)",
     "customManagers:githubActionsVersions"
+  ],
+  "packageRules": [
+    {
+      "description": "Workflow-only updates do not affect action users, so they must not trigger a release",
+      "matchFileNames": [".github/workflows/**"],
+      "semanticCommitType": "chore"
+    }
   ]
 }
